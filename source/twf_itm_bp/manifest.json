@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "pack.description",
+		"min_engine_version": [1, 20, 81],
+		"name": "pack.name",
+		"uuid": "dd8eb9f5-0f33-4280-83f0-e9dbb899b7ed",
+		"version": [1, 0, 0],
+		"pack_scope": "world"
+	},
+	"metadata": {
+		"product_type": "addon",
+		"authors": ["TheWorldFoundry"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"type": "data",
+			"uuid": "d2166965-8653-4c9a-9436-f24690ff891b",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Scripting",
+			"uuid": "f4a18a16-00e7-4436-81cd-3b267604fbef",
+			"version": [1, 0, 0],
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/twf/itm/twf_item_ui_110_v1.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+		{
+			"uuid": "8cabe8cb-88fe-4126-96a5-361531328de4",
+			"version": [1, 0, 0]
+		}
+	]
+}

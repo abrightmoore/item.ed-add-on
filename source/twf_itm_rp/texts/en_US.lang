@@ -1,0 +1,93 @@
+pack.name=§l§eITEM.ED§r by The World Foundry
+pack.description=§l§eITEM.ED§r Resource Pack
+
+item.twf_itm:guide=§l§eThe Item Forge§r
+item.twf_itm:smith=§l§eItem Forge§r
+twf_itm:guide.name=§l§eThe Item Forge§r
+twf_itm:guide_exit=§l§4Close§r
+twf_itm:guide_button_craft=§l§0Crafting§r
+twf_itm:guide_button_use=§l§0Instructions§r
+twf_itm:guide_page_close=§l§4Close§r
+twf_itm:guide_button_item_editor_inst=§l§0Item Editor§r
+twf_itm:guide_button_item_editor=§l§0Edit Item Template§r
+twf_itm:guide_button_smith=§l§0Create an §l§0Item§r
+twf_itm:guide_button_enchant_editor_inst=§l§0Enchanting§r
+twf_itm:guide_button_enchant_editor=§l§0Enchant Settings§r
+twf_itm:guide_button_item_selector=§l§0Item Selector§r
+twf_itm:guide_button_contents=§l§0Contents§r
+twf_itm:guide_button_generate_intro=§l§2Create §l§5a Random Item§r
+twf_itm:guide_button_generate_items_intro=§l§2Create §l§3Random Items§r
+twf_itm:guide_button_check_inventory=§l§0Let's do it!§r
+twf_itm:guide_button_can_place_on_inst=§l§0Can Place On Rule§r
+twf_itm:guide_button_can_place_on=§l§0Can Place On§r
+twf_itm:guide_button_can_destroy_inst=§l§0Can Destroy Rule§r
+twf_itm:guide_button_can_destroy=§l§0Can Destroy§r
+twf_itm:guide_button_show_template_inst=§l§0Settings§r
+twf_itm:guide_button_show_template=§l§0Show Settings§r
+twf_itm:guide_button_gave_item=§l§0Forge Item§r
+
+twf_itm:guide_button_settings=§l§6Change Settings§r
+
+twf_itm:guide_form_gave_item_title=§l§0Item Forged!§r
+twf_itm:guide_form_gave_item_body=If successful, the newly created item will be in your inventory. If there were no slots free in your inventory, please free a slot and try again.%1%1You may now return to the Item Forge Contents page.
+
+
+twf_itm:guide_form_show_template_inst_title=§l§0Show Template Settings§r
+twf_itm:guide_form_show_template_inst_body=The Template is used when you Create an Item using the Item Forge. Press the button to see the current settings.
+
+twf_itm:guide_form_show_template_title=§l§0Current Template Settings§r
+
+twf_itm:guide_form_smith_title=§l§0Forge Item§r
+twf_itm:guide_form_smith_body=When you press the button, a new Item will be created if you have space in your inventory. The item will be made using the Template you have been working with.%1%1Note that if you haven't re-run all the wizards for a changed item then some of the current Template values may not work.
+
+twf_itm:guide_form_can_place_on_title=§l§0Select Can Place On§r
+
+twf_itm:guide_form_can_place_on_inst_title=§l§0Can Place On Rule§r
+twf_itm:guide_form_can_place_on_inst_body=When you press the button, there will be a short pause and then you will have a list of all the blocks in this world. Choose the blocks that will be used as Can Place On rules for items created by the Item Template.%1%1This rule is used for players in Adventure mode.%1%1De-select all blocks to disable this rule.
+
+twf_itm:guide_form_can_destroy_title=§l§0Select Can Destroy§r
+
+twf_itm:guide_form_can_destroy_inst_title=§l§0Can Destroy Rule§r
+twf_itm:guide_form_can_destroy_inst_body=When you press the button, there will be a short pause and then you will have a list of all the blocks in this world. Choose the blocks that will be used as Can Destroy rules for items created by the Item Template.%1%1This rule is used for players in Adventure mode.%1%1De-select all blocks to disable this rule.
+
+
+twf_itm:guide_form_generate_intro_title=§l§0Create a Random Item§r
+twf_itm:guide_form_generate_intro_body=When you press the button, the Item Forge will randomly create a special Item.
+
+twf_itm:guide_form_generate_items_intro_title=§l§0Create Random Items§r
+twf_itm:guide_form_generate_items_intro_body=When you press the button, the Item Forge will randomly create 1 to 36 special Items.
+
+
+twf_itm:guide_form_check_inventory_title=§l§0Check your Inventory§r
+twf_itm:guide_form_check_inventory_body=All done!%1%1If you had spare space, you can now find what has just been forged in your inventory.
+
+
+twf_itm:guide_form_contents_title=§l§0Contents§r
+twf_itm:guide_form_contents_body=§l§eITEM.ED§r is by §l§6The World Foundry§r.%1%1This Item Editor lets you choose properties of the item that will be created when you use the Item Forge.%1%1§1§6Please choose an action§r
+
+twf_itm:guide_form_item_editor_inst_title=§l§0Item Editor§r
+twf_itm:guide_form_item_editor_inst_body=§rYou are about to select options that will be used when you create a new item with the Item Forge. You will then be able to optionally apply enchantments.%1%1§1§6Would you like to proceed?§r
+twf_itm:guide_form_settings_item_create_signal=Turn this ON to apply changes
+twf_itm:guide_form_settings_item_type=Select
+twf_itm:guide_form_settings_item_name=Name of the item
+twf_itm:guide_form_settings_item_damage=Choose the damage amount
+twf_itm:guide_form_settings_item_description=Describe this item
+twf_itm:guide_form_settings_item_history=Where did this item come from?
+twf_itm:guide_form_settings_item_notes=Notes for the player
+twf_itm:guide_form_settings_item_owner=A notable character
+
+twf_itm:guide_form_enchant_editor_inst_title=§l§0Enchanting§r
+twf_itm:guide_form_enchant_editor_inst_body=You are about to configure up to 3 enchantments. They will be applied when you create a new item using the Item Forge.%1%1Note that some enchantments are incompatible with each other, for example: Protection, Blast Protection, Fire Protection, and Projectile Protection.%1%1Would you like to proceed?
+twf_itm:guide_form_enchant_editor_title=§l§0Enchant§r
+twf_itm:guide_form_settings_item_enchant1=What is the first enchantment?
+twf_itm:guide_form_settings_item_enchant2=What is the second enchantment?
+twf_itm:guide_form_settings_item_enchant3=What is the third enchantment?
+twf_itm:guide_form_settings_item_enchant1_level=Select the level for enchanment 1
+twf_itm:guide_form_settings_item_enchant2_level=Select the level for enchanment 2
+twf_itm:guide_form_settings_item_enchant3_level=Select the level for enchanment 3
+
+twf_itm:guide_form_item_editor_title=§l§0Item Editor§r
+
+tile.twf_itm:electric_shock_trap_block.name=Electric Shock Trap Block
+entity.twf_itm:trap_layer.name=Trap Layer
+item.spawn_egg.entity.twf_itm:trap_layer.name=Spawn Trap Layer

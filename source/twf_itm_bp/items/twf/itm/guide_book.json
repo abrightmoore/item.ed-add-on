@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "twf_itm:guide",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:glint": false, 
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "twf_itm:guide"
+			},
+			"minecraft:hand_equipped": false,
+			"minecraft:interact_button": true
+		}
+	}
+}

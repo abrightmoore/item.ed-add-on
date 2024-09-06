@@ -1,0 +1,10 @@
+{
+	"texture_data": {
+		"twf_itm:guide": {
+			"textures": "textures/twf/itm/items/guide_book.png"
+		},
+		"twf_itm:smith": {
+			"textures": "textures/twf/itm/items/item_smith.png"
+		}
+	}
+}
