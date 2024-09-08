@@ -25,8 +25,17 @@ twf_itm:guide_button_can_destroy=§l§0Can Destroy§r
 twf_itm:guide_button_show_template_inst=§l§0Settings§r
 twf_itm:guide_button_show_template=§l§0Show Settings§r
 twf_itm:guide_button_gave_item=§l§0Forge Item§r
+twf_itm:guide_button_slots_inst=Inspect Your Items
+twf_itm:guide_button_slots=Show Inventory
 
 twf_itm:guide_button_settings=§l§6Change Settings§r
+
+twf_itm:guide_form_slots_inst_title=§l§0Inspect Inventory§r
+twf_itm:guide_form_slots_inst_body=Examine each of the items in your inventory.
+
+twf_itm:guide_form_slots_title=§l§0Your Inventory§r
+twf_itm:guide_form_slots_body=Here are your items shown against their inventory slot number.
+
 
 twf_itm:guide_form_gave_item_title=§l§0Item Forged!§r
 twf_itm:guide_form_gave_item_body=If successful, the newly created item will be in your inventory. If there were no slots free in your inventory, please free a slot and try again.%1%1You may now return to the Item Forge Contents page.

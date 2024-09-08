@@ -199,6 +199,17 @@ let forms_control_guide = {
 			],
 		run_after : make_slot_view_page
 	},	
+
+	slot : {
+		type : 'buttons',
+		cache : false,
+		title : ns+"guide_form_slot_title",
+		body : "Work in progress: Details of the selected Item will show here.\n",
+		nav : [
+				
+			],
+		run_after : make_slot_view_page
+	},	
 	
 	item_editor : {
 		type : 'controls',
@@ -267,12 +278,21 @@ let forms_control_guide = {
 twfguide.init_forms(forms_control_guide, ns);
 
 function make_slot_view_page(player) {
-	
+	// Show the details of the selected Item
+	try {
+		let inv = player.getComponent( 'inventory' ).container;
+			// todo - pass in the item reference.
+		forms_control_guide["slot"]["nav"].push([ns+"guide_button_"+"contents", undefined, "contents"]);
+	} catch(error) {
+		log(String(error));
+		log(error.stack);		
+	}		
 };
 
 function make_slots_book_page(player) {
 	// Introspect the player's inventory, creating a list of buttons. Each represents an inventory Item
 	try {
+		forms_control_guide["slots"]["nav"] = [];
 		let inv = player.getComponent( 'inventory' ).container;
 		for(let slot = 0; slot < inv.size; slot++) {
 			let itm = inv.getItem(slot)
